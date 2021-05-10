@@ -1,0 +1,3474 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yulia/ontologies/2021/3/events"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/yulia/ontologies/2021/3/events">
+    <Prefix name="" IRI="http://www.semanticweb.org/yulia/ontologies/2021/3/events#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Art"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#History"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Show"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spectacle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Art&amp;Science"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Begins_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Ends_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Happens_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_genre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Is_enjoed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Located_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comedy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hermitage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Melodrama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raduga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Four_Rooms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horror"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teatralnyj_tsentr_Zhavoronki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ah_eti_zvezdy_1983"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chacun_sa_nuit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antonij_i_Kleopatra_1980_g_teatr_im_EVahtangova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saint_Petersburg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-05-08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kazan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-05-09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Li"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teatr_Ermitazh_ploschadka_na_Novom_Arbate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-05-06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-05-07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chelyabinsk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kulturnyj_tsentr_Teatr_im_A_K_Brahmana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Novosibirsk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Among_Giants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sibajskij_gosudarstvennyj_bashkirskij_teatr_dramy_im_A_Mubarjakova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Action_Jackson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slantsevskij_teatr_kukol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gosudarstvennyj_lezginskij_muzykalnodramaticheskij_teatr_im_S_Stalskogo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rostov"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ace_Ventura_Pet_Detective"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kontsertnoteatralnyj_tsentr_Feniks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pirates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fantasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Linda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Narodnyj_molodezhnyj_teatr_Krylja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-05-11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-05-12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-05-13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-05-14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-05-10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Molodezhnyj_teatr_Angazhement_imeni_VSZagorujko"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Omsk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anonimka__1987_Po_odnoimennoj_pese_Sergeja_Mihalkova"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theatre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2001_A_Space_Odyssey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Foolish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turgenevteatr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Married_a_Strange_Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Natsionalnyj_teatr_pesni_itantsa_Amar_sajn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Abyss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tsentr_sovremennoj_dramaturgii_KoljadaTsentr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1941"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gosudarstvennyj_russkij_dramaticheskij_teatr_im_M_Ju_Lermontova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Princess_and_the_Cobbler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ivan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tora_Tora_Tora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wilson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Western"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Az_i_Fert_Vladimir_Aleksandrov_1981_g_komedija_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amfitrion_komedija_Molera_teatr_Vahtangova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_AliBaba_i_sorok_razbojnikov__1983_g_Muzykalnyj_filmspektakl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oliver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1776"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#To_Kill_A_Mockingbird"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dramaticheskij_teatr_goroda_Tyndy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20000_Leagues_Under_the_Sea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moscow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Narodnyj_kollektiv_molodezhnyj_teatr_Bums"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Darling_Lili"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moskovskij_teatr_pr_O_Tabakova_Novaja_stsena_Na_Suharevke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mystery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Following"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anna_Karenina_1953_g_MHAT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nizhniy_Novgorod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andrea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tom_Jones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Max"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vologodskij_oblastnoj_teatr_kukol_Malaja_stsena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gosudarstvennyj_teatr_natsionalnyh_kultur_Zabajkalskie_uzory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#999_spektaklej_v_onlajn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yekaterinburg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ishimskij_teatr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42nd_Street"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanktPeterburgskij_teatralnyj_tsentr_na_Kolomenskoj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teatr_Ugolok_dedushki_Durova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hollywood_Shuffle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tovstonogov_Georgij_Aleksandrovich"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Art"/>
+        <Class IRI="#Museum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinema"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drama"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exposition"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#History"/>
+        <Class IRI="#Museum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museum"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Show"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spectacle"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theater"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Art&amp;Science"/>
+        <Class IRI="#Show"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Ace_Ventura_Pet_Detective"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Action_Jackson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#Ah_eti_zvezdy_1983"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#Amfitrion_komedija_Molera_teatr_Vahtangova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#Anna_Karenina_1953_g_MHAT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#Anonimka__1987_Po_odnoimennoj_pese_Sergeja_Mihalkova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#Antonij_i_Kleopatra_1980_g_teatr_im_EVahtangova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#Az_i_Fert_Vladimir_Aleksandrov_1981_g_komedija_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Chacun_sa_nuit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Chelyabinsk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Dramaticheskij_teatr_goroda_Tyndy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Fantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Following"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Foolish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Gosudarstvennyj_lezginskij_muzykalnodramaticheskij_teatr_im_S_Stalskogo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Gosudarstvennyj_russkij_dramaticheskij_teatr_im_M_Ju_Lermontova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Gosudarstvennyj_teatr_natsionalnyh_kultur_Zabajkalskie_uzory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Art"/>
+        <NamedIndividual IRI="#Hermitage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Hollywood_Shuffle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Horror"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#I_Married_a_Strange_Person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Ishimskij_teatr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Kazan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Kontsertnoteatralnyj_tsentr_Feniks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Kulturnyj_tsentr_Teatr_im_A_K_Brahmana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Li"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Max"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drama"/>
+        <NamedIndividual IRI="#Melodrama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Molodezhnyj_teatr_Angazhement_imeni_VSZagorujko"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Moskovskij_teatr_pr_O_Tabakova_Novaja_stsena_Na_Suharevke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Mystery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Narodnyj_kollektiv_molodezhnyj_teatr_Bums"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Narodnyj_molodezhnyj_teatr_Krylja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Natsionalnyj_teatr_pesni_itantsa_Amar_sajn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Nizhniy_Novgorod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Novosibirsk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Oliver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Omsk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Pirates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cinema"/>
+        <NamedIndividual IRI="#Raduga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Rostov"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Saint_Petersburg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Samara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#SanktPeterburgskij_teatralnyj_tsentr_na_Kolomenskoj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Sibajskij_gosudarstvennyj_bashkirskij_teatr_dramy_im_A_Mubarjakova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Slam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Slantsevskij_teatr_kukol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Teatr_Ermitazh_ploschadka_na_Novom_Arbate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Teatr_Ugolok_dedushki_Durova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Teatralnyj_tsentr_Zhavoronki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Princess_and_the_Cobbler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#To_Kill_A_Mockingbird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Tom_Jones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Tora_Tora_Tora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#Tovstonogov_Georgij_Aleksandrovich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Tsentr_sovremennoj_dramaturgii_KoljadaTsentr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Turgenevteatr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Vologodskij_oblastnoj_teatr_kukol_Malaja_stsena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Western"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Wilson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Yekaterinburg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#_AliBaba_i_sorok_razbojnikov__1983_g_Muzykalnyj_filmspektakl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#1776"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#1941"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#20000_Leagues_Under_the_Sea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#2001_A_Space_Odyssey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2021-05-06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2021-05-07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2021-05-08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2021-05-09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2021-05-10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2021-05-11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2021-05-12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2021-05-13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Date"/>
+        <NamedIndividual IRI="#2021-05-14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#42nd_Street"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spectacle"/>
+        <NamedIndividual IRI="#999_spektaklej_v_onlajn"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Ace_Ventura_Pet_Detective"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_Pet_Detective"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_Pet_Detective"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_Pet_Detective"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_Pet_Detective"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_Pet_Detective"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_Pet_Detective"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Ace_Ventura_When_Nature_Calls"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Action_Jackson"/>
+        <NamedIndividual IRI="#Action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Action_Jackson"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Action_Jackson"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Action_Jackson"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Action_Jackson"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Action_Jackson"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Action_Jackson"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#Ah_eti_zvezdy_1983"/>
+        <NamedIndividual IRI="#2021-05-09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#Ah_eti_zvezdy_1983"/>
+        <NamedIndividual IRI="#2021-05-14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#Ah_eti_zvezdy_1983"/>
+        <NamedIndividual IRI="#Teatr_Ermitazh_ploschadka_na_Novom_Arbate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Alice_in_Wonderland"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#Amfitrion_komedija_Molera_teatr_Vahtangova"/>
+        <NamedIndividual IRI="#2021-05-09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#Amfitrion_komedija_Molera_teatr_Vahtangova"/>
+        <NamedIndividual IRI="#2021-05-10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#Amfitrion_komedija_Molera_teatr_Vahtangova"/>
+        <NamedIndividual IRI="#Vologodskij_oblastnoj_teatr_kukol_Malaja_stsena"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Among_Giants"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#Anna_Karenina_1953_g_MHAT"/>
+        <NamedIndividual IRI="#2021-05-08"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#Anna_Karenina_1953_g_MHAT"/>
+        <NamedIndividual IRI="#2021-05-11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#Anna_Karenina_1953_g_MHAT"/>
+        <NamedIndividual IRI="#SanktPeterburgskij_teatralnyj_tsentr_na_Kolomenskoj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Annie_Get_Your_Gun"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#Anonimka__1987_Po_odnoimennoj_pese_Sergeja_Mihalkova"/>
+        <NamedIndividual IRI="#2021-05-07"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#Anonimka__1987_Po_odnoimennoj_pese_Sergeja_Mihalkova"/>
+        <NamedIndividual IRI="#2021-05-12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#Anonimka__1987_Po_odnoimennoj_pese_Sergeja_Mihalkova"/>
+        <NamedIndividual IRI="#Gosudarstvennyj_lezginskij_muzykalnodramaticheskij_teatr_im_S_Stalskogo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#Antonij_i_Kleopatra_1980_g_teatr_im_EVahtangova"/>
+        <NamedIndividual IRI="#2021-05-06"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#Antonij_i_Kleopatra_1980_g_teatr_im_EVahtangova"/>
+        <NamedIndividual IRI="#2021-05-13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#Antonij_i_Kleopatra_1980_g_teatr_im_EVahtangova"/>
+        <NamedIndividual IRI="#Moskovskij_teatr_pr_O_Tabakova_Novaja_stsena_Na_Suharevke"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+        <NamedIndividual IRI="#Horror"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#April_Fools_Day"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#AstÈrix_aux_Jeux_Olympiques"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#Az_i_Fert_Vladimir_Aleksandrov_1981_g_komedija_"/>
+        <NamedIndividual IRI="#2021-05-07"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#Az_i_Fert_Vladimir_Aleksandrov_1981_g_komedija_"/>
+        <NamedIndividual IRI="#2021-05-07"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#Az_i_Fert_Vladimir_Aleksandrov_1981_g_komedija_"/>
+        <NamedIndividual IRI="#Kulturnyj_tsentr_Teatr_im_A_K_Brahmana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#2021-05-08"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#2021-05-09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Gosudarstvennyj_russkij_dramaticheskij_teatr_im_M_Ju_Lermontova"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Bezumnyj_den_ili_zhenitba_Figaro_Teatr_Satiry_1973_g"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Chacun_sa_nuit"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Chacun_sa_nuit"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Chacun_sa_nuit"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Chacun_sa_nuit"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Chacun_sa_nuit"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Chacun_sa_nuit"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Darling_Lili"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Duel_in_the_Sun"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#First_Love_Last_Rites"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Following"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Following"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Following"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Following"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Following"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Following"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Following"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Following"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Foolish"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Foolish"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Foolish"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Foolish"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Foolish"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Foolish"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Forty_Shades_of_Blue"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Four_Rooms"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Four_Weddings_and_a_Funeral"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Gosudarstvennyj_lezginskij_muzykalnodramaticheskij_teatr_im_S_Stalskogo"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Gosudarstvennyj_russkij_dramaticheskij_teatr_im_M_Ju_Lermontova"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Hollywood_Shuffle"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Hollywood_Shuffle"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Hollywood_Shuffle"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Hollywood_Shuffle"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Hollywood_Shuffle"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#I_Married_a_Strange_Person"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#I_Married_a_Strange_Person"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#I_Married_a_Strange_Person"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#I_Married_a_Strange_Person"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#I_Married_a_Strange_Person"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#I_Married_a_Strange_Person"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#I_Married_a_Strange_Person"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Ishimskij_teatr"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Kulturnyj_tsentr_Teatr_im_A_K_Brahmana"/>
+        <NamedIndividual IRI="#Novosibirsk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Lets_Talk_About_Sex"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Mississippi_Mermaid"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Molodezhnyj_teatr_Angazhement_imeni_VSZagorujko"/>
+        <NamedIndividual IRI="#Yekaterinburg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Moskovskij_teatr_pr_O_Tabakova_Novaja_stsena_Na_Suharevke"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Narodnyj_kollektiv_molodezhnyj_teatr_Bums"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Narodnyj_molodezhnyj_teatr_Krylja"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Nine_12_Weeks"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Oliver"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Oliver"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Oliver"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Oliver"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Oliver"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Oliver"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Oliver"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Oliver"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Oliver"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Over_the_Hill_to_the_Poorhouse"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Pirates"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Pirates"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Pirates"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Pirates"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Pirates"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Pirates"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#SanktPeterburgskij_teatralnyj_tsentr_na_Kolomenskoj"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Sibajskij_gosudarstvennyj_bashkirskij_teatr_dramy_im_A_Mubarjakova"/>
+        <NamedIndividual IRI="#Yekaterinburg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Slam"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Slam"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Slam"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Slam"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Slam"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Slam"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Slam"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Slam"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Slam"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Slantsevskij_teatr_kukol"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Teatr_Ermitazh_ploschadka_na_Novom_Arbate"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Teatr_Ugolok_dedushki_Durova"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Teatralnyj_tsentr_Zhavoronki"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+        <NamedIndividual IRI="#Action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Abyss"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Four_Seasons"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Land_Girls"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Princess_and_the_Cobbler"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Princess_and_the_Cobbler"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Princess_and_the_Cobbler"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Princess_and_the_Cobbler"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Princess_and_the_Cobbler"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Princess_and_the_Cobbler"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Princess_and_the_Cobbler"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#The_Ten_Commandments"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+        <NamedIndividual IRI="#Action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Three_Kingdoms_Resurrection_of_the_Dragon"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#To_Kill_A_Mockingbird"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#To_Kill_A_Mockingbird"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#To_Kill_A_Mockingbird"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#To_Kill_A_Mockingbird"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#To_Kill_A_Mockingbird"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#To_Kill_A_Mockingbird"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#To_Kill_A_Mockingbird"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Tom_Jones"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Tom_Jones"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Tom_Jones"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Tom_Jones"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Tom_Jones"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Tom_Jones"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Tom_Jones"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Tora_Tora_Tora"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Tora_Tora_Tora"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Tora_Tora_Tora"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Tora_Tora_Tora"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Tora_Tora_Tora"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Tora_Tora_Tora"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Tora_Tora_Tora"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#Tovstonogov_Georgij_Aleksandrovich"/>
+        <NamedIndividual IRI="#2021-05-09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#Tovstonogov_Georgij_Aleksandrovich"/>
+        <NamedIndividual IRI="#2021-05-09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#Tovstonogov_Georgij_Aleksandrovich"/>
+        <NamedIndividual IRI="#Narodnyj_molodezhnyj_teatr_Krylja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Tsentr_sovremennoj_dramaturgii_KoljadaTsentr"/>
+        <NamedIndividual IRI="#Yekaterinburg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Turgenevteatr"/>
+        <NamedIndividual IRI="#Yekaterinburg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Twelve_Monkeys"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Twin_Falls_Idaho"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Vologodskij_oblastnoj_teatr_kukol_Malaja_stsena"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Wilson"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Wilson"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Wilson"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Wilson"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Wilson"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#Wilson"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Wilson"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Wilson"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#Wilson"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#_AliBaba_i_sorok_razbojnikov__1983_g_Muzykalnyj_filmspektakl"/>
+        <NamedIndividual IRI="#2021-05-06"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#_AliBaba_i_sorok_razbojnikov__1983_g_Muzykalnyj_filmspektakl"/>
+        <NamedIndividual IRI="#2021-05-06"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#_AliBaba_i_sorok_razbojnikov__1983_g_Muzykalnyj_filmspektakl"/>
+        <NamedIndividual IRI="#Teatralnyj_tsentr_Zhavoronki"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#12_Angry_Men"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#1776"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1776"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1776"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1776"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1776"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1776"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1776"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1776"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1776"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#1941"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1941"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1941"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1941"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1941"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1941"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1941"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1941"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#1941"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#20000_Leagues_Under_the_Sea"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#20000_Leagues_Under_the_Sea"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#20000_Leagues_Under_the_Sea"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#20000_Leagues_Under_the_Sea"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#20000_Leagues_Under_the_Sea"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#20000_Leagues_Under_the_Sea"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#20000_Leagues_Under_the_Sea"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#2001_A_Space_Odyssey"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#2001_A_Space_Odyssey"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#2001_A_Space_Odyssey"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#2001_A_Space_Odyssey"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#2001_A_Space_Odyssey"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#2001_A_Space_Odyssey"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#2001_A_Space_Odyssey"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#24_7_Twenty_Four_Seven"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#3_Men_and_a_Baby"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+        <NamedIndividual IRI="#Action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#3_Ninjas_Kick_Back"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#42nd_Street"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#42nd_Street"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#42nd_Street"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#42nd_Street"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#42nd_Street"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#42nd_Street"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#42nd_Street"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#42nd_Street"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+        <NamedIndividual IRI="#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#51_Birch_Street"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_genre"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Andrea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Beth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Ivan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Li"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Max"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Pol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Alex"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <NamedIndividual IRI="#55_Days_at_Peking"/>
+        <NamedIndividual IRI="#Linda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Begins_at"/>
+        <NamedIndividual IRI="#999_spektaklej_v_onlajn"/>
+        <NamedIndividual IRI="#2021-05-08"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Ends_at"/>
+        <NamedIndividual IRI="#999_spektaklej_v_onlajn"/>
+        <NamedIndividual IRI="#2021-05-08"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Happens_in"/>
+        <NamedIndividual IRI="#999_spektaklej_v_onlajn"/>
+        <NamedIndividual IRI="#Dramaticheskij_teatr_goroda_Tyndy"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Begins_at"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Ends_at"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Happens_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_genre"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Located_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Begins_at"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Ends_at"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Happens_in"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has_genre"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Located_in"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Begins_at"/>
+        <Class IRI="#Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Ends_at"/>
+        <Class IRI="#Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Happens_in"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has_genre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Is_enjoed"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Is_not_enjoed"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Located_in"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Date"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
